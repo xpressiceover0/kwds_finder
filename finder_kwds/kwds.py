@@ -50,7 +50,7 @@ def getConexion(name):
     data_conn = {
             'user': os.environ['dbuser'],
             'password': os.environ['dbpass'],
-            'host': '10.10.160.31', # 31 es produccion  82 es qa
+            'host': '10.10.10.10',
             'port': '3306',
             'database': name,
             'raise_on_warnings': True}
